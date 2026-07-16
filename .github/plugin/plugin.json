@@ -1,12 +1,11 @@
 {
-  "name": "my-plugin",
-  "description": "API development toolkit with specialized agents and migration skills",
+  "name": "plumberkit",
+  "description": "GitHub Copilot plugin that contains many useful tools for developers. Contains Agents, skills and MCP Server tested and ready to use.",
   "version": "1.0.0",
   "agents": [
-    "./agents/api-architect.md",
-    "./agents/test-specialist.md"
+    "./agents/ai-ready.agent.md"
   ],
   "skills": [
-    "./skills/database-migrations/"
+    "./skills/generate-csharp-pattern1/"
   ]
 }
