@@ -1,0 +1,11 @@
+{
+  "name": "quality",
+  "description": "GitHub Copilot plugin that contains many useful tools for developers.",
+  "version": "1.0.0",
+  "agents": [
+    "./agents/ai-ready.agent.md"
+  ],
+  "skills": [
+    "./skills/secure-api/"
+  ]
+}

@@ -3,7 +3,7 @@
   "description": "GitHub Copilot plugin that contains many useful tools for developers. Contains Agents, skills and MCP Server tested and ready to use.",
   "version": "1.0.0",
   "agents": [
-    "./agents/ai-ready.agent.md"
+    "./agents/generate-crud-component.agent.md"
   ],
   "skills": [
     "./skills/generate-csharp-pattern1/"
