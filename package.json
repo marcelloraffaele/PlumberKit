@@ -1,0 +1,26 @@
+{
+  "name": "plumberkit",
+  "version": "1.0.0",
+  "description": "A GitHub Copilot plugin that contains many useful tools for developers. Contains Agents, skills and MCP Server tested and ready to use.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@copilot-extensions/preview-sdk": "^5.0.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "github-copilot",
+    "copilot-extension",
+    "developer-tools",
+    "ai-agent"
+  ],
+  "license": "MIT"
+}
