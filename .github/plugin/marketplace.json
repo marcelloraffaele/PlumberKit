@@ -1,0 +1,25 @@
+{
+  "name": "plumberkit",
+  "metadata": {
+    "description": "Raffaele's collection of GitHub Copilot plugins, agents, prompts, and skills",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "Raffaele Marcello",
+    "email": "rmarcello@example.com"
+  },
+  "plugins": [
+    {
+      "name": "template-code-generator",
+      "source": "template-code-generator",
+      "description": "Set of agents and skills to generate code templates for various programming languages and frameworks.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "quality",
+      "source": "quality",
+      "description": "Set of agents and skills to ensure code quality.",
+      "version": "1.0.0"
+    }
+  ]
+}
