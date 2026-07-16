@@ -1,0 +1,19 @@
+{
+  "name": "plumberkit",
+  "metadata": {
+    "description": "Raffaele's collection of GitHub Copilot plugins, agents, prompts, and skills",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "Raffaele",
+    "email": "Raffaele@example.com"
+  },
+  "plugins": [
+    {
+      "name": "plumberkit-plugin",
+      "source": "plumberkit-plugin",
+      "description": "PlumberKit is a GitHub Copilot plugin that contains many useful tool for developers",
+      "version": "1.0.0"
+    }
+  ]
+}
