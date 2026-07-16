@@ -69,7 +69,8 @@ app.post("/", async (req, res) => {
       payload = parsedPayload;
     }
   } catch (err) {
-    res.status(400).json({ error: `Bad request: ${err.message}` });
+    console.error("Request parsing error:", err);
+    res.status(400).json({ error: "Bad request" });
     return;
   }
 

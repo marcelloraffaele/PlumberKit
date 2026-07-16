@@ -1,7 +1,7 @@
 {
   "name": "plumberkit",
   "version": "1.0.0",
-  "description": "A GitHub Copilot plugin that contains many useful tools for developers. Contains Agents, skills and MCP Server tested and ready to use.",
+  "description": "A GitHub Copilot extension that contains many useful tools for developers. Contains Agents, skills and MCP Server tested and ready to use.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {

@@ -84,7 +84,7 @@ async function streamCompletion(messages, token, res, tools) {
 
     buffer += decoder.decode(value, { stream: true });
     const lines = buffer.split("\n");
-    buffer = lines.pop(); // keep any incomplete line for the next iteration
+    buffer = lines.pop() ?? ""; // keep any incomplete line for the next iteration
 
     for (const line of lines) {
       if (!line.startsWith("data: ")) continue;
