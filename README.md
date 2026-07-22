@@ -11,18 +11,22 @@ PlumberKit is a GitHub Copilot Marketplace that contains many useful (plugins) t
 ### Template code generator
 Agents and skills to generate code templates for different programming languages.
 
-| Plugin | Type | Name | What it provides |
-| --- | --- | --- | --- |
-| Template code generator | Agent | [`generate-crud-component`](template-code-generator/agents/generate-crud-component.agent.md) | Generates the files needed for a Java CRUD API component, including a bean, controller, and service. |
-| Template code generator | Skill | [`generate-csharp-pattern1`](template-code-generator/skills/generate-csharp-pattern1/SKILL.md) | Generates a C# component, service, and controller using the Pattern1 template. |
+| Type | Name | What it provides |
+| --- | --- | --- |
+| Agent | [`generate-crud-component`](template-code-generator/agents/generate-crud-component.agent.md) | Generates the files needed for a Java CRUD API component, including a bean, controller, and service. |
+| Skill | [`generate-csharp-pattern1`](template-code-generator/skills/generate-csharp-pattern1/SKILL.md) | Generates a C# component, service, and controller using the Pattern1 template. |
 
 ### Quality
 Agents and skills to analyze code quality, detect bugs, and suggest improvements.
 
-| Plugin | Type | Name | What it provides |
-| --- | --- | --- | --- |
-| Quality | Agent | [`AI-Ready`](quality/agents/ai-ready.agent.md) | Reviews project structure for AI-ready GitHub Copilot setup and can generate compatible code snippets and components. |
-| Quality | Skill | [`secure-api`](quality/skills/secure-api/SKILL.md) | Reviews and improves REST API security, including authentication, authorization, input validation, rate limiting, monitoring, and OWASP Top 10 checks. |
+| Type | Name | What it provides |
+| --- | --- | --- |
+| Agent | [`AI-Ready`](quality/agents/ai-ready.agent.md) | Reviews project structure for AI-ready GitHub Copilot setup and can generate compatible code snippets and components. |
+| Agent | [`Feature Builder`](quality/agents/feature-builder.agent.md) | Orchestrates feature development by coordinating planning, implementation, and code review sub-agents. |
+| Sub-Agent (non-invokable)  | [`Implementer`](quality/agents/feature-builder-implementer-sub.agent.md) | Implements code changes from a plan while following project conventions and best practices. |
+| Sub-Agent (non-invokable)  | [`Planner`](quality/agents/feature-builder-planner-sub.agent.md) | Analyzes feature requests and creates structured, step-by-step implementation plans. |
+| Sub-Agent (non-invokable) | [`Reviewer`](quality/agents/feature-builder-reviewer-sub.agent.md) | Reviews code for correctness, quality, security, maintainability, and best-practice compliance. |
+| Skill | [`secure-api`](quality/skills/secure-api/SKILL.md) | Reviews and improves REST API security, including authentication, authorization, input validation, rate limiting, monitoring, and OWASP Top 10 checks. |
 
 
 ## How to install
