@@ -1,9 +1,13 @@
 {
   "name": "quality",
   "description": "GitHub Copilot plugin that contains many useful tools for developers.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "agents": [
-    "./agents/ai-ready.agent.md"
+    "./agents/ai-ready.agent.md",
+    "./agents/feature-builder-implementer-sub.agent.md",
+    "./agents/feature-builder-planner-sub.agent.md",
+    "./agents/feature-builder-reviewer-sub.agent.md",
+    "./agents/feature-builder.agent.md"
   ],
   "skills": [
     "./skills/secure-api/"
